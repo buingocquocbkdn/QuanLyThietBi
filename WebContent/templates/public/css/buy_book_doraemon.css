@@ -1,0 +1,9 @@
+[title~=yourMap] {
+	border-bottom:  1px solid black;
+}
+div.textThongBao>p{
+	margin-top: 30px;
+}
+div.textThongBao+button{
+	margin-left: 45%;
+}

@@ -1,0 +1,223 @@
+.row{
+ margin-left: 0px;
+ margin-right: 0px;
+}
+.col-xs-6.col-sm-6.col-md-3.col-lg-3{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.col-xs-3.col-sm-3.col-md-3.col-lg-3{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.text-in-image {
+    width: 300px;
+    position: relative;
+    top: -149px;
+    color: white;
+    font-family: 'Lobster', cursive;
+    left: 90px;
+    margin-bottom: -107px;
+}
+.right{
+	text-align: right;
+	float: right;
+	padding-right: 20px;
+}
+.title_new_story {
+	margin-top: 15px;
+	background-color: #dad7db;
+	height: 45px;
+	padding-top: 13px;
+	padding-left: 10px;
+	border-radius: 5px;
+}
+
+a.color_text:hover {
+	text-decoration: none;
+	background-color: #11375b;
+	color: white;
+}
+a.prev,a.next {
+	height:91px;
+	position:absolute;
+	width:43px;
+	top:50%;
+	margin-top:-30px;
+	margin-right: -26px;
+	opacity:0.6;
+	text-indent:-99999px;
+	cursor:pointer;
+	-webkit-transition:opacity 200ms ease-out;
+}
+a.prev:hover,a.next:hover {
+	opacity:1;
+}
+.prev {
+	left:0;
+	background: #000  no-repeat -200px 25px;
+}
+.next {
+	right:0;
+	background: #000  no-repeat -167px 25px;
+}
+
+.slider {
+	height:200px;
+	position: relative;
+	margin-top: 30px;
+}
+.slider ul li{
+	list-style: none;
+}
+.image_slider{
+	margin-left: -12px;
+}
+.new_story{
+	margin-top: 15px;
+	width: 98%;
+	height: 305px;
+	background-color: #dad7db;
+	float: left;
+	/* margin-right: 23px; */
+	border-radius: 8px;
+}
+.new_story.end{
+	margin-right: 0px;
+}
+.text_new_story{
+	text-align: center;
+	color: #11375b;
+	border-radius: 4px;
+}
+.content_new_face {
+	margin-top: 15px;
+	background-color: #dad7db;
+	padding: 5px;
+	display: block;
+	border-radius: 5px;
+}
+.container.truyenbo{
+}
+.content_top_story{
+	height: 625px;
+	margin-top: 15px;
+	background-color: #dad7db;
+	border-radius: 5px;
+}
+a.text_top {
+	font-size: 14px;
+	margin-left: 10px;
+	margin-top: 10px;
+	color: #11375b;
+}
+.top_xephang {
+	padding-top: 30px;
+	margin-bottom: 15px;
+	padding-left: 5px;
+	height: 72px;
+	display: inline-flex;
+}
+.iframe-map{
+	height: 300px;
+	margin-top: 10px;
+}
+ a[href="info.html"] {color: #11375b;}
+ .slide {
+    padding-top: 70px;
+}
+
+.new_story_image{
+	width: 95%;
+	height: 245px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+a.right.color_text::after {
+    content: ">>";
+    color: #11375b;
+}
+@media only screen and (max-width: 420px){
+	h3.textlogo_h3 {
+    visibility: hidden;
+    color: #363B34;
+    font-size: 23px;
+    font-family: 'Kaushan Script', cursive;
+}
+	.top_xephang {
+    padding-top: 30px;
+    margin-bottom: 15px;
+    padding-left: 5px;
+    height: 72px;
+    display: block;
+}
+	.text-in-image h2{
+		font-size: 16px;
+	}
+	.text-in-image h4{
+		font-size: 12px;
+	}
+	.text-in-image {
+	    width: 250px;
+	    position: relative;
+	    top: -85px;
+	    color: white;
+	    font-family: 'Lobster', cursive;
+	    left: 38px;
+	    margin-bottom: -88px;
+	}
+}
+
+@media only screen and (min-width: 420px) and (max-width: 767px){
+	.content_top_story {
+	    height: 600px;
+	    margin-top: 15px;
+	    background-color: #dad7db;
+	    border-radius: 5px;
+	}
+	.top_xephang {
+	    padding-top: 20px;
+	    margin-bottom: 15px;
+	    padding-left: 5px;
+	    height: 72px;
+	    display: list-item;
+	}
+	.text-in-image h2{
+		font-size: 20px;
+	}
+	.text-in-image h4{
+		font-size: 14px;
+	}
+	.text-in-image {
+	    width: 300px;
+	    position: relative;
+	    top: -104px;
+	    color: white;
+	    font-family: 'Lobster', cursive;
+	    left: 51px;
+	    margin-bottom: -92px;
+	}
+}
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+	.content_new_face {
+	    margin-top: 15px;
+	    background-color: #dad7db;
+	    padding: 5px;
+	    display: block;
+	    height: 625px;
+	    border-radius: 5px;
+	}
+	.content_top_story {
+	    height: 1265px;
+	    margin-top: 15px;
+	    background-color: #dad7db;
+	    border-radius: 5px;
+	}
+	.top_xephang {
+	    padding-top: 20px;
+	    margin-bottom: 15px;
+	    padding-left: 5px;
+	    height: 72px;
+	    display: inline-block;
+	}
+}

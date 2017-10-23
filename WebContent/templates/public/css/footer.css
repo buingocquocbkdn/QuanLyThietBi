@@ -1,0 +1,37 @@
+	.book_text_center{
+		/* padding-bottom: 5%; */
+		text-align: center;
+		color: #FFBA49;
+		clear: both;
+	}
+	span.fa.fa-google-plus-square.fa-fw {
+		font-size: 24px;
+		color: #FFBA49;
+	}
+
+	span.fa.fa-facebook-square.fa-fw {
+		font-size: 24px;
+		color: #FFBA49;
+	}
+	footer{
+		
+		height: 120px;
+		clear: both;
+		background-color: #11375b;
+	}
+	.wdth_footer_60{
+		float: left;
+		width: 60%;
+		margin-top: 15px;
+		margin-left: 15px;
+	}
+	.wdth_footer_40{
+		float: left;
+		width: 40%;
+		margin-left: -30px;
+		margin-top: 15px;
+		text-align: right;
+	}
+	.author-web{
+		list-style: square;
+	}

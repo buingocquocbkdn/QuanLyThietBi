@@ -1,0 +1,229 @@
+.container.fix_header {
+    padding-top: 95px;
+}
+.title_new_story {
+    margin-top: 15px;
+    background-color: #dad7db;
+    border-radius: 5px;
+    height: 48px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.content_new_face {
+    margin-top: 5px;
+    background-color: #dad7db;
+    padding: 5px;
+    border-radius: 5px;
+}
+.title-all-chapter {
+    color: #11375b;
+}
+a {
+    color: #11375b;
+    text-decoration: none;
+}
+.title_link{
+    background-image: url("../images/info/link_title.png");
+    width: 112px;
+    height: 64px;
+    position: relative;
+    margin-top: 14px;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+.content_info{
+    background-color: #dad7db;
+    width: 100%;
+    height: 1300px;
+    margin-top: 5px;
+    padding: 5px 0px 0px 0px;
+    border-radius: 5px;
+}
+.content-introduction{
+    clear: both;
+    margin-left: 5px;
+    color: #11375b;
+}
+.introduction{
+    border-top: solid 5px  #FFBA49;
+    padding-top: 10px;
+}
+p.introduction:first-letter{
+    font-size: 3em;
+}
+
+.info-story {
+    padding: 5px 0px 0px 15px;
+}
+
+.row.gioi_thieu {
+    position: relative;
+}
+
+.read-and-buy {
+    position: absolute;
+    bottom: 0px;
+    right: 20%;
+}
+
+.all-chapter {
+    padding-left: 5px;
+}
+.content_top_story {
+    height: 857px;
+    margin-top: 15px;
+    background-color: #dad7db;
+    border-radius: 5px;
+}
+.top_xephang {
+    padding-top: 15px;
+    padding-left: 5px;
+    height: 72px;
+    display: inline-block;
+}
+
+.col-xs-7.col-sm-7.col-md-7.col-lg-7.more_info {
+    position: static;
+}
+#image_big_info{
+    width: 100%;
+    height: 360px;
+}
+#chapter01:visited {
+    color:  #8A2BE2;
+    text-decoration: none;
+}
+#chapter01:hover {
+    color: black;
+}
+.white_space{
+    white-space: pre-line;
+}
+#name-story{
+    font-weight: bold;
+    color: #11375b;
+    border-bottom: 10px solid transparent;
+    padding-bottom: 15px;
+    margin-right: 15px;
+    -webkit-border-image: url(../images/border.png) 30 stretch; /* Safari 3.1-5 */
+    -o-border-image: url(../images/border.png) 30 stretch; /* Opera 11-12.1 */
+    border-image: url(../images/border.png) 30 stretch;
+}
+.overflow-chapter{
+    height: 317px;
+    overflow: auto;
+}
+
+.hover_button_info:hover{
+    transform: scale(1.1);
+}
+/*.hover_button_info:hover {
+    width: 180px;
+}*/
+.container.fix_header{
+    /* padding-top: 95px; */
+}
+.row{
+    margin: 0px 0px 0px 0px;
+}
+@media screen and (max-width: 767px){
+    .table-responsive {
+        width: 100%;
+        margin-bottom: 15px;
+        border:none;
+    }
+}
+@media only screen and (min-width: 450px){
+    img.hover_button_info {
+        width: 90%;
+    }
+    .read-and-buy {
+        margin-top: 20px;
+        position: static;
+        display: inline-flex;
+        bottom: 0px;
+        right: 20%;
+    }
+    #image_big_info {
+        width: 100%;
+        height: 360px;
+    }
+}
+@media only screen and (min-width: 992px){
+    
+    #image_big_info {
+        width: 100%;
+        height: 360px;
+    }
+    .content_new_face {
+        visibility: visible;
+    }
+}
+@media only screen and (max-width: 420px){
+    .image_text {
+        visibility: hidden;
+        position: absolute;
+        left: 105px;
+        top: 0px;
+        color: #11375b;
+        z-index: 2;
+    }
+    .content_new_face {
+        visibility: visible;
+    }
+    .read-and-buy {
+        position: static;
+        margin-top: 15px;
+        bottom: 0px;
+        right: 20%;
+    }
+    .top_xephang {
+        padding-top: 15px;
+        padding-left: 5px;
+        height: 72px;
+        display: inherit;
+    }
+    .content_info {
+        height: 1700px;
+    }
+}
+@media only screen and (min-width: 420px) and (max-width: 767px){
+    
+    .content_new_face {
+        visibility: hidden;
+        margin-top: -350px;
+        background-color: #dad7db;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .content_info {
+        height: 1600px;
+    }
+    .info-story {
+        padding: 5px 0px 0px 15px;
+        display: inline-grid;
+    }
+    .read-and-buy {
+        position: static;
+        margin-top: 15px;
+        bottom: 0px;
+        right: 20%;
+    }
+    .top_xephang {
+        padding-top: 15px;
+        padding-left: 5px;
+        height: 72px;
+        display: inherit;
+    }
+    #image_big_info {
+        width: 100%;
+        height: 360px;
+    }
+}
+.image{
+    background: url("../images/info/back_info.jpg") bottom;
+    background-size: cover;
+    width: 100%;
+    padding-left: 95px;
+    padding-right: 95px;
+}
